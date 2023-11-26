@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Secret Mountain | Contact</title>
+        <meta name="author" content="Wesley Layton">
+        <meta name="description" content="Contact us at The Secret Mountain to have a luxurious getaway or to ask us about one of our top-tier resorts!">
+        <!-- LINKS  -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">The Secret Mountain</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accomodations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- background image in css -->
+        </header>
+        <main>
+            <section id="contact">
+            <h2 class="left-align">Contact Us</h2>
+                <div class="con-grid">
+                    <div class="left">
+                        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p><br>
+                        <p>Required fields marked with an <span class="required">*</span></p>
+                        <img alt="forest with a large mountain peak in the background" src="images/swiss-peak.jpg" width="350" height="455">
+                    </div>
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                        <!-- NAME -->
+                        <label for="my-name">Full Name (First and Last) <span class="required">*</span></label><br>
+                        <input type="text" name="my-name" id="my-name" required><br>
+
+                        <!-- EMAIL -->
+                        <label for="my-email">Email Address <span class="required">*</span></label><br>
+                        <input type="email" name="my-email" id="my-email" required><br>
+
+                        <!-- PHONE -->
+                        <label for="my-phone">Phone Number <span class="required">*</span></label><br>
+                        <input type="tel" name="my-phone" id="my-phone" required><br>
+
+                        <!-- PREFERRED CONTACT -->
+                        <label>Preferred Contact Method:<span class="required">*</span></label><br>
+                        <div class="radio">
+                            <input type="radio" id="by_email" name="pref_contact" value="pref_email" required>
+                            <label for="by_email">Email</label>
+
+                            <input type="radio" id="by_phone" name="pref_contact" value="pref_phone">
+                            <label for="by_phone">Phone</label>
+                        </div>
+                        <!-- COMMENTS -->
+                        <label for="my-comments">Comments <span class="required">*</span></label><br>
+                        <textarea name="my-comments" id="my-comments" required></textarea><br>
+
+                        <!-- SUBMIT -->
+                        <input type="submit" name="my-submit" id="my-submit">
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy;2023 - The Secret Mountain</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
